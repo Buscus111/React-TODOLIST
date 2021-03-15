@@ -1,0 +1,24 @@
+.todos-wrapper{
+  width: 90vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.one-todo-wrapper{
+  max-height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn{
+  margin: 0 1em;
+}
+
+
+.done-todo{
+  text-decoration: line-through;
+  color: rgb(170, 170, 170);
+}
+

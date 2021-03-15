@@ -1,0 +1,45 @@
+.error{
+  background-image: url(https://images.unsplash.com/gifs/weird/weird-15.gif);
+  height: 100%;
+  background-color: #111;
+  color: #fff;
+  background-size: cover;
+  background-position: 50%;
+  }
+
+.back{
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: transparent;
+  background: linear-gradient(180deg,rgba(0,0,0,.8) 0,rgba(0,0,0,.5) 40%,rgba(0,0,0,.5) 70%,rgba(0,0,0,.8));
+  left: 0;
+  bottom: 0;
+}
+.error-status-wrapper{
+  position: relative;
+  display: table;
+  height: 100%;
+  width: 100%;
+  max-width: 580px;
+  z-index: 1;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.error-status{
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.error-status-text{
+  font-size: 90px;
+  margin: 0 0 -24px;
+  line-height: 1;
+}
+
+.error-message{
+  font-size: 18px;
+  margin: 36px auto 48px;
+}
